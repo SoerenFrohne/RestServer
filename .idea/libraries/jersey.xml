@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="jersey">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/jersey-client-1.19.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/jersey-core-1.19.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/jersey-json-1.19.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/jersey-server-1.19.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/jersey-servlet-1.19.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
