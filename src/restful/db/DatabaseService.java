@@ -26,8 +26,7 @@ public class DatabaseService {
         return measurements;
     }
 
-    public void InsertMeasurement(int seriesId, Measurement measurement)
-            throws SQLException {
+    public void InsertMeasurement(int seriesId, Measurement measurement) throws SQLException {
         String insertMessungStatement = "INSERT INTO Messung "
                 + "(LaufendeNummer, Wert, MessreihenId) "
                 + "VALUES(" + measurement.getIncrementNumber() + ", "

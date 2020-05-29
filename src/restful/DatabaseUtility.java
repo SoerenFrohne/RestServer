@@ -23,6 +23,7 @@ public enum DatabaseUtility {
         return currentSeries;
     }
 
+    //Ready
     public Measurement[] readMeasurementsFromDatabase(int seriesId) throws ClassNotFoundException, SQLException {
         Measurement[] measurements;
         this.databaseService.connectDb();
@@ -31,12 +32,14 @@ public enum DatabaseUtility {
         return measurements;
     }
 
+    //Ready
     public void speichereMessungInDb(int messreihenId, Measurement measurement) throws ClassNotFoundException, SQLException {
         this.databaseService.connectDb();
         this.databaseService.InsertMeasurement(messreihenId, measurement);
         this.databaseService.closeDb();
     }
 
+    //Ready
     public void readTestSeriesFromDatabaseInclusiveMeasurements() throws ClassNotFoundException, SQLException {
         this.databaseService.connectDb();
         TestSeries[] series = this.databaseService.readTestSeriesInclusiveMeasurements();
